@@ -1,0 +1,121 @@
+/* Edição Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #333;
+  background-color: white;
+  border: 18px solid #E9E9E9;
+}
+
+/* Header */
+header {
+  background-color: #890783;
+  padding: 1.25rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+}
+/* Banner */
+.banner {
+  background-color: #9842D9;
+  height: 14rem;
+}
+
+/* Conteúdo central */
+.conteudo {
+  padding: 2.5rem 1.25rem;
+  text-align: center;
+}
+
+.conteudo h2 {
+  color: #800080;
+  margin-bottom: 20px;
+}
+
+.conteudo h2::after {
+  content: '';
+  display: block;
+  width: 6rem;
+  height: 3px;
+  background-color: #9842D9;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+
+.conteudo p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Equipe */
+.equipe {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.equipe h3 {
+  color: #890783;
+  margin-bottom: 30px;
+}
+
+.equipe h3::after {
+  content: '';
+  display: block;
+  width: 6rem;
+  height: 3px;
+  background-color: #9842D9;
+  margin: 10px auto;
+  border-radius: 20px;
+}
+
+.times {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+}
+
+.circle {
+  width: 5rem;
+  height: 5rem;
+  background-color: #9842D9;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.card p {
+  font-weight: bold;
+  color: #800080;
+  font-size: 18px;
+}
+
+.card span {
+  color: #890783;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Footer */
+footer {
+  background-color: #890783;
+  text-align: center;
+  padding: 18px;
+  color: white;
+  margin-top: 40px;
+}
