@@ -82,7 +82,7 @@ bootcamp-geracao-tech/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/DevLuisairton/Gera-o_Tech.git
+   git clone https://github.com/DevLuisairton/Geracao_Tech.git
 
 
 
