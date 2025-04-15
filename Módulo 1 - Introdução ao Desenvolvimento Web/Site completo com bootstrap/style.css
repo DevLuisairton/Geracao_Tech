@@ -1,0 +1,71 @@
+/* Personalizações adicionais */
+:root {
+  --primary-color: #6f42c1;
+  --secondary-color: #0dcaf0;
+  --accent-color: #ff6b6b;
+}
+
+.bg-primary-custom {
+  background-color: var(--primary-color) !important;
+}
+
+.text-primary-custom {
+  color: var(--primary-color) !important;
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary-custom {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary-custom:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 6rem 0;
+}
+
+#cliente{
+  width: 50px;
+  height: 50px;
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.testimonial-card {
+  border-left: 4px solid var(--primary-color);
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: white;
+}
+
+.social-icon:hover {
+  color: var(--secondary-color);
+}

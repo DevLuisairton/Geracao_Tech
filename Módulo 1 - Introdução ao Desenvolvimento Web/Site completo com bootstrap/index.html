@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVision - Soluções Digitais</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Ícones Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="icon" href="assets/img/logo.jpeg" id="logo_icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-lightning-charge-fill"></i> TechVision
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-light ms-lg-3">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Transforme seu negócio com soluções digitais</h1>
+                    <p class="lead mb-4">Nós criamos experiências digitais incríveis que impulsionam seus resultados e encantam seus clientes.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#contato" class="btn btn-light btn-lg px-4">Fale Conosco</a>
+                        <a href="#servicos" class="btn btn-outline-light btn-lg px-4">Nossos Serviços</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="assets/img/hero_img.jpeg" alt="Hero Image" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nossos <span class="text-primary-custom">Serviços</span></h2>
+                <p class="lead text-muted">Oferecemos soluções completas para sua presença digital</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon">
+                                <i class="bi bi-globe"></i>
+                            </div>
+                            <h4 class="card-title">Desenvolvimento Web</h4>
+                            <p class="card-text">Sites responsivos e otimizados para conversão, criados com as melhores tecnologias do mercado.</p>
+                            <a href="#" class="btn btn-outline-primary-custom">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <h4 class="card-title">Aplicativos Mobile</h4>
+                            <p class="card-text">Aplicativos nativos e híbridos para iOS e Android, com designs intuitivos e alta performance.</p>
+                            <a href="#" class="btn btn-outline-primary-custom">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <h4 class="card-title">Marketing Digital</h4>
+                            <p class="card-text">Estratégias personalizadas para aumentar seu alcance, engajamento e conversões.</p>
+                            <a href="#" class="btn btn-outline-primary-custom">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="assets/img/logo_png.png" alt="Sobre Nós" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">Quem <span class="text-primary-custom">Somos</span></h2>
+                    <p class="lead">Uma equipe apaixonada por tecnologia e inovação, dedicada a entregar os melhores resultados para nossos clientes.</p>
+                    <p>Fundada em 2015, a TechVision já ajudou mais de 200 empresas a alcançarem seus objetivos digitais. Combinamos criatividade, tecnologia e estratégia para criar soluções que realmente fazem a diferença.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary-custom me-2"></i> Equipe especializada e certificada</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary-custom me-2"></i> Metodologias ágeis e transparentes</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary-custom me-2"></i> Suporte contínuo e personalizado</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary-custom me-2"></i> Resultados mensuráveis e garantidos</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary-custom btn-lg mt-3">Nossa História</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nosso <span class="text-primary-custom">Portfólio</span></h2>
+                <p class="lead text-muted">Alguns dos nossos projetos mais recentes</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm overflow-hidden">
+                        <img src="assets/img/fashion.jpeg" class="card-img-top" alt="Projeto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">E-commerce Fashion</h5>
+                            <p class="card-text">Plataforma de e-commerce para marca de moda sustentável.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary-custom">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm overflow-hidden">
+                        <img src="assets/img/finanças.jpeg" class="card-img-top" alt="Projeto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">App de Finanças</h5>
+                            <p class="card-text">Aplicativo mobile para gestão financeira pessoal.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary-custom">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm overflow-hidden">
+                        <img src="assets/img/educacional.jpeg" class="card-img-top" alt="Projeto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Portal Educacional</h5>
+                            <p class="card-text">Plataforma de cursos online com sistema de gamificação.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary-custom">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary-custom btn-lg">Ver Todos os Projetos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">O que dizem nossos <span class="text-primary-custom">clientes</span></h2>
+                <p class="lead text-muted">A satisfação dos nossos clientes é nossa maior recompensa</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4 testimonial-card">
+                            <div class="mb-3 text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-4">"A TechVision transformou completamente nosso negócio online. Nosso e-commerce teve um aumento de 150% nas vendas após o redesenho."</p>
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/Ana Silva.jpeg" class="rounded-circle me-3" alt="Cliente 1" id="cliente">
+                                <div>
+                                    <h6 class="mb-0">Ana Silva</h6>
+                                    <small class="text-muted">CEO, Moda Sustentável</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4 testimonial-card">
+                            <div class="mb-3 text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <p class="card-text mb-4">"O aplicativo desenvolvido pela TechVision superou todas as nossas expectativas. A equipe foi extremamente profissional e atenta às nossas necessidades."</p>
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/Carlos Mendes.jpeg" class="rounded-circle me-3" alt="Cliente 2" id="cliente">
+                                <div>
+                                    <h6 class="mb-0">Carlos Mendes</h6>
+                                    <small class="text-muted">Diretor, FinTech Solutions</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4 testimonial-card">
+                            <div class="mb-3 text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <p class="card-text mb-4">"Trabalhar com a TechVision foi uma experiência incrível. Entregaram antes do prazo e com qualidade excepcional. Recomendo a todos!"</p>
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/Mariana Oliveira.jpeg" class="rounded-circle me-3" alt="Cliente 3" id="cliente">
+                                <div>
+                                    <h6 class="mb-0">Mariana Oliveira</h6>
+                                    <small class="text-muted">Diretora Educacional</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Preços -->
+    <section id="precos" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Nossos <span class="text-primary-custom">Planos</span></h2>
+                <p class="lead text-muted">Escolha o plano que melhor atende às suas necessidades</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm pricing-card">
+                        <div class="card-header bg-primary-custom text-white text-center py-4">
+                            <h4 class="my-0 fw-normal">Básico</h4>
+                            <h1 class="card-title pricing-card-title my-3">R$99<small class="text-white-50 fw-light">/mês</small></h1>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Site institucional</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> 5 páginas</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Design responsivo</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Formulário de contato</li>
+                                <li class="mb-2"><i class="bi bi-x text-muted me-2"></i> <del>SEO básico</del></li>
+                                <li class="mb-2"><i class="bi bi-x text-muted me-2"></i> <del>Integração com redes sociais</del></li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary-custom">Contratar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-lg pricing-card">
+                        <div class="card-header bg-primary-custom text-white text-center py-4 position-relative">
+                            <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">Popular</span>
+                            <h4 class="my-0 fw-normal">Profissional</h4>
+                            <h1 class="card-title pricing-card-title my-3">R$299<small class="text-white-50 fw-light">/mês</small></h1>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Site profissional</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Até 15 páginas</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Design personalizado</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> SEO básico</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Integração com redes sociais</li>
+                                <li class="mb-2"><i class="bi bi-x text-muted me-2"></i> <del>E-commerce básico</del></li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary-custom">Contratar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm pricing-card">
+                        <div class="card-header bg-primary-custom text-white text-center py-4">
+                            <h4 class="my-0 fw-normal">Premium</h4>
+                            <h1 class="card-title pricing-card-title my-3">R$599<small class="text-white-50 fw-light">/mês</small></h1>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> E-commerce completo</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Páginas ilimitadas</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Design premium</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> SEO avançado</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Integração com marketplaces</li>
+                                <li class="mb-2"><i class="bi bi-check text-success me-2"></i> Suporte prioritário</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary-custom">Contratar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="fw-bold">Entre em <span class="text-primary-custom">Contato</span></h2>
+                    <p class="lead">Tem um projeto em mente? Vamos conversar!</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-5">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="nome" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="assunto" class="form-label">Assunto</label>
+                                        <input type="text" class="form-control" id="assunto" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="mensagem" class="form-label">Mensagem</label>
+                                        <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary-custom btn-lg w-100">Enviar Mensagem</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-md-4 text-center mb-4">
+                    <div class="p-3">
+                        <i class="bi bi-geo-alt-fill feature-icon"></i>
+                        <h4>Endereço</h4>
+                        <p class="mb-0">Av. Estrela do Mar, S/N<br>Pindoretama - CE</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="p-3">
+                        <i class="bi bi-telephone-fill feature-icon"></i>
+                        <h4>Telefone</h4>
+                        <p class="mb-0">(85) 98111-2800</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="p-3">
+                        <i class="bi bi-envelope-fill feature-icon"></i>
+                        <h4>Email</h4>
+                        <p class="mb-0">Luisairtonsilva@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">TechVision</h5>
+                    <p>Transformando ideias em realidade digital desde 2015. Nossa missão é ajudar empresas a alcançarem seu potencial máximo através da tecnologia.</p>
+                    <div class="mt-4">
+                        <a href="https://github.com/DevLuisairton" class="social-icon" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://www.instagram.com/luisairton_silva/" class="social-icon" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/luisairton/" class="social-icon" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#servicos" class="text-white text-decoration-none">Serviços</a></li>
+                        <li class="mb-2"><a href="#sobre" class="text-white text-decoration-none">Sobre</a></li>
+                        <li class="mb-2"><a href="#portfolio" class="text-white text-decoration-none">Portfólio</a></li>
+                        <li class="mb-2"><a href="#precos" class="text-white text-decoration-none">Preços</a></li>
+                        <li class="mb-2"><a href="#contato" class="text-white text-decoration-none">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Serviços</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Web Design</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Desenvolvimento</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Marketing</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">SEO</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Aplicativos</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-uppercase mb-4">Newsletter</h5>
+                    <p>Assine nossa newsletter para receber novidades e promoções.</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Seu email" aria-label="Seu email">
+                        <button class="btn btn-primary-custom" type="button">Assinar</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 TechVision. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-white text-decoration-none me-3">Termos de Uso</a>
+                    <a href="#" class="text-white text-decoration-none">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
